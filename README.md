@@ -7,3 +7,7 @@ Framework keras uses tensorflow or theano, and makes setup of convolutional neur
 Batch normalization can be a very good idea (for faster convergence).
 Pre-trained word embeddings isn't always useful. In this case it decreased performance.
 
+Generative models
+
+https://drive.google.com/open?id=0BxQkKe29iv9SajZHY25sdmZyR1U
+https://drive.google.com/open?id=0BxQkKe29iv9SdTFSWmdnYTM5cVE
