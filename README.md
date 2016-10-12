@@ -69,6 +69,7 @@ Uses normal autoencoders, but imposes a predefined distribution on samples in en
 By varying how we interact with the encoded space, we can do unsupervised learning, semi-supervised learning, cool tricks like separating style and class, clustering - and probably several other minor fun tricks. 
 
 
-#Softmax classifier
+#Misc. models
+##Softmax classifier
 http://cs231n.github.io/linear-classify/#softmax
 Generaliation of logistic regression to multiple classes. Uses a cross-entropy loss, where we minimize the cross-entropy between the predicted class probability distribution and the true dist (all prob. mass on the correct class).
