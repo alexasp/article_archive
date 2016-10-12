@@ -7,6 +7,7 @@ https://drive.google.com/file/d/0BxQkKe29iv9SNTBRcEtlQTRobEE
 Framework keras uses tensorflow or theano, and makes setup of convolutional neural networks and possibly other models simpler.
 Batch normalization can be a very good idea (for faster convergence).
 Pre-trained word embeddings isn't always useful. In this case it decreased performance.
+Had success speeding up training with a narrower CNN, using only one filter size.
 
 #Neural networks
 
@@ -14,7 +15,24 @@ Pre-trained word embeddings isn't always useful. In this case it decreased perfo
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
 
 ###Takeaways:
-..
+Convolutional NNs are not intuitively well fit for language, but they are very fast and work quite well on NLP problems. N-grams can be very expensive on large vocabularies, but wide filters in CNNs is no problem.
+
+Word embeddings may be more beneficial when applied to shorter documents than longer documents.
+####Parameters 
+Filter size, filter stride length, number of filters, padding of input or not (narrow vs wide convolution), pooling strategy. A paper is referenced in the introduction that experiements with parameter variations, which could be useful if using CNNs.
+####Model properties
+
+A CNN can take multiple input channels (e.g. RGB in images, different type of word embeddings in NLP)
+
+Pooling layers are used to ensure fixed size output matrix as well as reducing dimensionality. (And in images some translation and rotation invariance)
+
+Suitable for classification tasks (sentiment, spam, topic), not so suitable for sentence tagging problems since convolutions and pooling looses word order.
+
+This document uses concatenated word2vec embeddings as input layer, but mentiones that this is not well enough investigated. Maybe some embeddings are better, or they can be learned as part of the model.
+
+####Character level CNN
+
+Character information could also be used as input to the network, either iwht embedding or learning directly from character level input.
 
 #Generative models
 
