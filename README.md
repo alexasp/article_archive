@@ -10,6 +10,21 @@ Pre-trained word embeddings isn't always useful. In this case it decreased perfo
 Had success speeding up training with a narrower CNN, using only one filter size.
 
 #Neural networks
+##General
+Backpropegation updates is computed simply with recursive application of differentiation chain rule.
+
+##Recurrent Neural Networks readup
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/ (some pretty cool examples here)
+https://deeplearning4j.org/lstm.html
+https://arxiv.org/pdf/1602.07776v3.pdf
+
+Sequential processing is often possible even when it is not obvious such as fixed matrix input. E.g. an nubmer can be read from left to right, and a house number can be formed by applying colors in sequence.
+
+RNNs can easily be stacked deeply, e.g. y1 = rnn1.step(x), y = rnn2.step(y1) and so on. The second layer takes output of first RNN layer as input instead of data as input.
+
+####LSTMs
+RNNs suffer from vanishing gradients, and Long Short-Term Memory (LSTM) units were proposed to handle this. LSTMs are like storage cells, where input is allowed, current state is forgotten and output of state is allowed depending on the current input. It works like a controlled memory that can operate at various timescales.
+
 
 ##Understanding convolutional neural networks for NLP
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
