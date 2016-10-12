@@ -14,7 +14,7 @@ Pre-trained word embeddings isn't always useful. In this case it decreased perfo
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
 
 ###Takeaways:
-
+..
 
 #Generative models
 
