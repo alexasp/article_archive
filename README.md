@@ -1,3 +1,5 @@
+#Project presentations
+
 ##Topic Classification of Journalistic Content.
 https://drive.google.com/file/d/0BxQkKe29iv9SNTBRcEtlQTRobEE
 
@@ -5,6 +7,14 @@ https://drive.google.com/file/d/0BxQkKe29iv9SNTBRcEtlQTRobEE
 Framework keras uses tensorflow or theano, and makes setup of convolutional neural networks and possibly other models simpler.
 Batch normalization can be a very good idea (for faster convergence).
 Pre-trained word embeddings isn't always useful. In this case it decreased performance.
+
+#Deep neural networks
+
+##Understanding convolutional neural networks for NLP
+http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
+
+###Takeaways:
+
 
 #Generative models
 
@@ -24,3 +34,4 @@ Inspired by Adverserial Nets.
 Uses normal autoencoders, but imposes a predefined distribution on samples in encoded space. This distribution is specified such that we can easily sample from encoded space and feed results through the decoder, yielding output that looks like training data.
 
 By varying how we interact with the encoded space, we can do unsupervised learning, semi-supervised learning, cool tricks like separating style and class, clustering - and probably several other minor fun tricks. 
+
