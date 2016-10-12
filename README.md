@@ -8,7 +8,7 @@ Framework keras uses tensorflow or theano, and makes setup of convolutional neur
 Batch normalization can be a very good idea (for faster convergence).
 Pre-trained word embeddings isn't always useful. In this case it decreased performance.
 
-#Deep neural networks
+#Neural networks
 
 ##Understanding convolutional neural networks for NLP
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
