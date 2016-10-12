@@ -16,7 +16,8 @@ Deep neural nets have had sucess in discriminative learning, but generative mode
 
 A tricky thing with this kind of model is balancing how long each model can train before switching to the other one, as the models can get stuck in bad states.
 
-##Adverserial Autocoders https://drive.google.com/open?id=0BxQkKe29iv9SdTFSWmdnYTM5cVE
+##Adverserial Autocoders 
+https://drive.google.com/open?id=0BxQkKe29iv9SdTFSWmdnYTM5cVE
 ###Takeaways: 
 Inspired by Adverserial Nets.
 
