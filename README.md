@@ -9,9 +9,17 @@ Batch normalization can be a very good idea (for faster convergence).
 Pre-trained word embeddings isn't always useful. In this case it decreased performance.
 Had success speeding up training with a narrower CNN, using only one filter size.
 
+#Optimization
+##Downpour SGD
+http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf
+
 #Neural networks
 ##General
 Backpropegation updates is computed simply with recursive application of differentiation chain rule.
+
+### Neural Networks, Manifolds, and Topology
+http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
+
 
 ##Recurrent Neural Networks readup
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/ (some pretty cool examples here)
@@ -48,6 +56,11 @@ This document uses concatenated word2vec embeddings as input layer, but mentione
 ####Character level CNN
 
 Character information could also be used as input to the network, either iwht embedding or learning directly from character level input.
+
+##Neural Turing Machines
+https://arxiv.org/abs/1410.5401
+
+...
 
 #Generative models
 
