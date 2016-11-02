@@ -13,6 +13,13 @@ Had success speeding up training with a narrower CNN, using only one filter size
 ##Downpour SGD
 http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf
 
+#Model selection
+
+##ROC Curve shape
+http://stats.stackexchange.com/questions/111577/roc-graph-shape
+
+..
+
 #Neural networks
 ##General
 Backpropegation updates is computed simply with recursive application of differentiation chain rule.
