@@ -15,6 +15,17 @@ http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf
 
 #Model selection
 
+##A Study on Threshold Selection for Multi-label Classification
+https://pdfs.semanticscholar.org/f3eb/f945aba8d70b8d7daf14021fe1220752f0f7.pdf
+
+
+##On Over-fitting in Model Selection and Subsequent Selection Bias in
+Performance Evaluation
+http://www.jmlr.org/papers/volume11/cawley10a/cawley10a.pdf
+
+Over-fitting at the second level of inference (i.e., model selection) can have a very substantial damaging effect on the generalisation performance of
+state-of-the-art machine learning algorithms.
+
 ##ROC Curve shape
 http://stats.stackexchange.com/questions/111577/roc-graph-shape
 
@@ -33,7 +44,7 @@ http://karpathy.github.io/2015/05/21/rnn-effectiveness/ (some pretty cool exampl
 https://deeplearning4j.org/lstm.html
 https://arxiv.org/pdf/1602.07776v3.pdf
 
-Sequential processing is often possible even when it is not obvious such as fixed matrix input. E.g. an nubmer can be read from left to right, and a house number can be formed by applying colors in sequence.
+Sequential processing is often possible even when it is not obvious such as fixed matrix input. E.g. a number can be read from left to right, and a house number can be formed by applying colors in sequence.
 
 RNNs can easily be stacked deeply, e.g. y1 = rnn1.step(x), y = rnn2.step(y1) and so on. The second layer takes output of first RNN layer as input instead of data as input.
 
