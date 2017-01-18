@@ -35,6 +35,8 @@ http://stats.stackexchange.com/questions/111577/roc-graph-shape
 ##General
 Backpropegation updates is computed simply with recursive application of differentiation chain rule.
 
+Deep networks can be made deeper than what can practically be trained by backpropagation by fully traning parts of the network as a classifier, than using 
+
 ### Neural Networks, Manifolds, and Topology
 http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
 
@@ -48,11 +50,16 @@ Sequential processing is often possible even when it is not obvious such as fixe
 
 RNNs can easily be stacked deeply, e.g. y1 = rnn1.step(x), y = rnn2.step(y1) and so on. The second layer takes output of first RNN layer as input instead of data as input.
 
+####Bidirectional RNN
+Sometimes we require too long memory for normal RNNs. Use a bi-directional RNN instead to remember longer.
+
 ####LSTMs
 RNNs suffer from vanishing gradients, and Long Short-Term Memory (LSTM) units were proposed to handle this. LSTMs are like storage cells, where input is allowed, current state is forgotten and output of state is allowed depending on the current input. It works like a controlled memory that can operate at various timescales.
 
 
-##Understanding convolutional neural networks for NLP
+
+##Understanding 
+al neural networks for NLP
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
 
 ###Takeaways:
