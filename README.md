@@ -33,9 +33,12 @@ http://stats.stackexchange.com/questions/111577/roc-graph-shape
 
 #Neural networks
 ##General
+
 Backpropegation updates is computed simply with recursive application of differentiation chain rule.
 
-Deep networks can be made deeper than what can practically be trained by backpropagation by fully traning parts of the network as a classifier, than using 
+Deep networks can be made deeper than what can practically be trained by backpropagation by fully traning parts of the network as a classifier, then using the high level features learned by the network as input to train a new neural network - stacking neural networks.
+
+Take advantage of dataset with multiple classes. If the data is from the same distribution, there are general concepts to be learned that will help support classification, and neural networks need a lot of data to be able to do this -> train multi-class networks.
 
 ### Neural Networks, Manifolds, and Topology
 http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
