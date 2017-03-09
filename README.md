@@ -13,6 +13,9 @@ Had success speeding up training with a narrower CNN, using only one filter size
 ##Downpour SGD
 http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf
 
+#Data sourcing and development
+Models learn from the variance in data sets, and in order for it to learn the classes well, the variance in the data should be due to the different classes in the data. Variance in data that is not due to classes being different will hinder the model from learning the correct classes.
+
 #Model selection
 
 ##A Study on Threshold Selection for Multi-label Classification
